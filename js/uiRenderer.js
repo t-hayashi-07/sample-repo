@@ -117,7 +117,6 @@ const UIRenderer = (() => {
      */
     const clearTaskForm = () => {
         document.getElementById('task-title').value = '';
-        document.getElementById('task-priority').value = 'medium';
     };
     
     return {
