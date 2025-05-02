@@ -1,0 +1,80 @@
+/* Responsive Styles for ToDo List Application */
+
+/* Tablet Styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    #task-form {
+        flex-direction: column;
+    }
+    
+    .form-group {
+        width: 100%;
+    }
+    
+    button {
+        width: 100%;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .task-input, .task-list {
+        padding: 15px;
+    }
+    
+    .filter-group {
+        flex-wrap: wrap;
+    }
+    
+    .filter-btn {
+        flex: 1;
+        min-width: 80px;
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    
+    .task-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .task-checkbox {
+        margin-bottom: 10px;
+    }
+    
+    .task-content {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .task-actions {
+        width: 100%;
+        justify-content: flex-end;
+    }
+    
+    .delete-btn {
+        padding: 6px 10px;
+    }
+}
+
+/* Small Mobile Styles */
+@media screen and (max-width: 320px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .task-title {
+        font-size: 1rem;
+    }
+}
